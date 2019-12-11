@@ -1,0 +1,55 @@
+.App {
+  width: 100vw;
+  font-family: 'Roboto', serif;
+
+  &__inner {
+    width: 50%;
+    margin: 20px auto;
+    text-align: center;
+  }
+}
+
+.Header {
+  font-size: 28px;
+  font-weight: normal;
+
+  &__link {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+
+    &:visited {
+      color: #cc0000;
+      text-decoration: none;
+    }
+  }
+}
+
+.Button {
+  margin-top: 20px;
+  padding: 15px 25px;
+  font-size: 20px;
+  // font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.7px;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+.Subs-list {
+  margin-top: 50px;
+  list-style-type: none;
+  text-align: left;
+
+  &__item {
+    margin-top: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}
+
+
